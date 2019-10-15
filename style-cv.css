@@ -1,3 +1,6 @@
+body{
+    box-sizing: border-box;
+}
 .shape
 {
     height: 20rem;
@@ -25,21 +28,13 @@
 
 .image-fluid
 {
-    max-width: 12rem;
-    min-width: 6rem;
-    /* height: auto; */
+    width: 12rem;
     border: 0.25rem solid white;
     border-radius: 55%;
    
     
 }
 
-.image-bottom
-{
-    width: 10rem;
-    border-radius: 55%;
-    margin: 1rem;
-}
 
 .btn-primary
 {
@@ -107,11 +102,6 @@
 
 }
 
-.div-5
-{
-    /* margin-top: 1.5vh; */
-    background-color: #faf9f9;
-}
 .div-5 h2
 {
     margin:3vh 0;
@@ -119,83 +109,35 @@
 
 .footer ul
 {
-
     list-style: none;
 }
 
 .footer i
 {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: #00BCD4;
+    margin: 3px;
+}
+
+.div-skills i {
+    font-size: 1rem;
+    color: #00BCD4;
+    margin: 3px;
+}
+
+.color {
     color: #00BCD4;
 }
 
-.div-t ul
-{
-    list-style: none;
+footer {
+    background-color: #00BCD4;
 }
 
-.div-t li
-{
-    margin: 0 5rem;
-}
 
-.div-t i
-{
-    font-size: 2rem;
-    color: #00BCD4;
-    margin: 0 1rem;
-}
 
-.timeline {
-    list-style: none;
-  }
-  .timeline > li {
-    margin-bottom: 60px;
-  }
   
-  /* for Desktop */
-  @media ( min-width : 640px )
-  {
-    .timeline > li {
-      overflow: hidden;
-      margin: 0;
-      position: relative;
-      /* margin: 10px; */
-    }
-    .timeline-date {
-      width: 110px;
-      float: left;
-      margin-top: 20px;
-    }
-    .timeline-content {
-      width: 75%;
-      float: left;
-      border-left: 3px #e5e5d1 solid;
-      padding-left: 30px;
-    }
-    .timeline-content:before {
-      content: '';
-      width: 12px;
-      height: 12px;
-      background: #02b0c7;
-      position: absolute;
-      left: 106px;
-      top: 24px;
-      border-radius: 100%;
-    }
-  }
+ 
 
-  @media (max-width:770px)
-  {
-    .image-fluid
-    {
-        width: 10rem;
-        margin: 0;
-    }
-
-  }
-
-}
 
 
 

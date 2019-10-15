@@ -2,14 +2,10 @@
 {
     height: 20rem;
     background-color: #007888;
-    -webkit-clip-path: polygon(50% 65%, 0 0, 100% 0);
-    clip-path: polygon(50% 65%, 0 0, 100% 0);
 }
 .div-1
 {
     background-color: #00BCD4;
-    /* -webkit-clip-path: polygon(100% 0, 100% 48%, 50% 100%, 0 48%, 0 0); */
-clip-path: polygon(100% 0, 100% 48%, 50% 100%, 0 48%, 0 0);
 }
 
 .div-1 i
@@ -25,14 +21,12 @@ clip-path: polygon(100% 0, 100% 48%, 50% 100%, 0 48%, 0 0);
     color: #007888;
 }
 
-.div-1 button
-{
-    float: right;
-}
+
 
 .image-fluid
 {
-    width: 12rem;
+    max-width: 12rem;
+    min-width: 6rem;
     /* height: auto; */
     border: 0.25rem solid white;
     border-radius: 55%;
@@ -52,7 +46,6 @@ clip-path: polygon(100% 0, 100% 48%, 50% 100%, 0 48%, 0 0);
     background-color: #007888 !important;
     border-color: #007888 !important;
     font-weight: bold;
-    margin: 1rem 0.5rem 0 0;
     vertical-align: center;
 }
 
@@ -70,19 +63,10 @@ clip-path: polygon(100% 0, 100% 48%, 50% 100%, 0 48%, 0 0);
 
 .div-2
 {
-    
+
     background-color: #00a5bb;
-   
 }
 
-.div-2 h1
-{
-    margin-top: 18vh;
-}
-.div-2 h4
-{
-    margin:3.5vh 6vh;
-}
 
 .div-3
 {
@@ -101,7 +85,7 @@ clip-path: polygon(100% 0, 100% 48%, 50% 100%, 0 48%, 0 0);
 }
 
 .div-3 i{
-    font-size: 1rem;
+    font-size: 1.7rem;
     margin: 1rem 0.5rem;
 }
 
